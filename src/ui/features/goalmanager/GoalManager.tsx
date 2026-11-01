@@ -119,6 +119,7 @@ const pickEmojiOnClick = (
   }
 
   dispatch(updateGoalRedux(updatedGoal))
+  updateGoalApi(props.goal.id, updatedGoal)
 }
 
   return (
